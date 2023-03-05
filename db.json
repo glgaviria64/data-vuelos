@@ -1,0 +1,102 @@
+{
+  "vuelosRedondos": [
+    {
+      "id": 1,
+      "tickekId": "AV897GU6S",
+      "datosDeIda": {
+        "fecha": "2023-03-16",
+        "origen": "Cartagena",
+        "destino": "Medellin",
+        "hayEscala": false,
+        "horaArranque": "12:00 am",
+        "horaLlegada": "2:00 pm",
+        "duracion": "2 horas"
+      },
+      "datosDeVuelta": {
+        "fecha": "2023-03-31",
+        "origen": "Medellin",
+        "destino": "Cartagena",
+        "hayEscala": false,
+        "horaArranque": "12:00 am",
+        "horaLlegada": "2:00 pm",
+        "duracion": "2 horas"
+      },
+      "precioTotal": "300.000 COP",
+      "pasajeros": 2
+    },
+    {
+      "id": 2,
+      "tickekId": "AV897GU6S",
+      "datosDeIda": {
+        "fecha": "2023-04-01",
+        "origen": "Barranquilla",
+        "destino": "Bogota",
+        "hayEscala": false,
+        "horaArranque": "12:00 am",
+        "horaLlegada": "2:00 pm",
+        "duracion": "2 horas"
+      },
+      "datosDeVuelta": {
+        "fecha": "2023-04-20",
+        "origen": "Bogota",
+        "destino": "Barranquilla",
+        "hayEscala": false,
+        "horaArranque": "12:00 am",
+        "horaLlegada": "2:00 pm",
+        "duracion": "2 horas"
+      },
+      "precioTotal": "300.000 COP",
+      "pasajeros": 3
+    }
+  ],
+  "vuelosSencillos": [
+    {
+      "id": 1,
+      "tickekId": "AV897GU6S",
+      "datosDeIda": {
+        "origen": "Bogota",
+        "fecha": "2023-03-20",
+        "destino": "Barranquilla",
+        "hayEscala": false,
+        "horaArranque": "12:00 am",
+        "horaLlegada": "2:00 pm",
+        "duracion": "2 horas"
+      },
+      "pasajeros": 3,
+      "precioTotal": "450.000 COP"
+    },
+    {
+      "id": 2,
+      "tickekId": "AV897GU6S",
+      "datosDeIda": {
+        "origen": "Cartagena",
+        "destino": "Medellin",
+        "fecha": "2023-03-10",
+        "hayEscala": false,
+        "horaArranque": "12:00 am",
+        "horaLlegada": "2:00 pm",
+        "duracion": "2 horas"
+      },
+      "pasajeros": 1,
+      "precioTotal": "100.000 COP"
+    }
+  ],
+  "ciudades": [
+    {
+      "id": 1,
+      "nombre": "Barranquilla"
+    },
+    {
+      "id": 2,
+      "nombre": "Cartagena"
+    },
+    {
+      "id": 3,
+      "nombre": "Bogota"
+    },
+    {
+      "id": 4,
+      "nombre": "Medellin"
+    }
+  ]
+}

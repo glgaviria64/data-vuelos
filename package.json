@@ -1,0 +1,11 @@
+{
+  "name": "db",
+  "main": "index.js",
+  "scripts": {
+    "server": "json-server db.json --port 3004"
+  },
+  "dependencies": {
+    "json-server": "^0.17.2",
+    "server": "^1.0.38"
+  }
+}
